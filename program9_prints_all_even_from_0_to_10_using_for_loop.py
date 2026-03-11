@@ -1,3 +1,6 @@
 # For loop from 0 to 100
-# Checks if number is even
-# Print even numbers
+for i in range(101):
+    # Checks if number is even
+    if i % 2 == 0:
+        # Print even numbers
+        print(i)
